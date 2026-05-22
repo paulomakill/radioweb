@@ -8,10 +8,5 @@
     "num": 2,
     "nome": "Radio Paradise",
     "url": "http://stream.radioparadise.com:80/mp3-128"
-  },
-  {
-    "num": 3,
-    "nome": "Smooth Jazz",
-    "url": "http://us4.internet-radio.com:8258/"
   }
 ]
