@@ -1,0 +1,16 @@
+{
+  "name": "Rodrigues Radio",
+  "version": "1.0.0",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        { "path": "RodriguesRadioWeb.ino.bootloader.bin", "offset": 0 },
+        { "path": "RodriguesRadioWeb.ino.partitions.bin", "offset": 32768 },
+        { "path": "boot_app0.bin", "offset": 57344 },
+        { "path": "RodriguesRadioWeb.ino.bin", "offset": 65536 }
+      ]
+    }
+  ]
+}
